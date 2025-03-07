@@ -38,7 +38,7 @@ function App() {
   }, [reset, route, visibleTodos]);
 
   return (
-    <div className="flex flex-col gap-8">
+    <div className="container flex flex-col gap-8">
       <h1>Todo List</h1>
       <FormProvider {...form}>
         <TodoList />
