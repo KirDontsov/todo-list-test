@@ -1,0 +1,16 @@
+
+.new {
+	animation: appear ease-in-out 1s;
+}
+
+@keyframes appear {
+	0% {
+		background: #C7D2FE;
+	}
+	10% {
+		background: #10b981;
+	}
+	100% {
+		background: #C7D2FE;
+	}
+}
