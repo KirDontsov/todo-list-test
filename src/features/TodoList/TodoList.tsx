@@ -52,7 +52,7 @@ export const TodoList = () => {
         title: value,
         finished: false,
       };
-      append(newTodo);
+      append(newTodo, { shouldFocus: false });
       addTodo(newTodo);
     },
     [addTodo, append, fields],
